@@ -1,0 +1,47 @@
+.payroll {
+  height: 160vh;
+  width: 100%;
+  background-color: rgb(25, 103, 210);
+  margin-top: 400px;
+}
+
+.payroll__content {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  top: 150px;
+}
+
+.payroll__content--child {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.payroll__content--childleft {
+  width: 30%;
+}
+
+.payroll__selected {
+  color: white;
+  background-color: rgb(25, 103, 210);
+  /* opacity: 0.5; */
+  border: 1px solid #ccc;
+}
+
+.payroll__content--childright{
+    width: 60%;
+    height: 89vh;
+    background-color: white;
+    border-top-left-radius: 20px;
+}
+
+
+.payroll__right-header{
+  display:flex;
+  justify-content: flex-start;
+  padding: 10px;
+  gap: 214px;
+  align-items: center;
+}
